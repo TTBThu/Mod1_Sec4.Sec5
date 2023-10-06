@@ -3,64 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Section02</title>
+    <title>Section03</title>
     <style>
-        .left{text-align: left;}
-        .right{text-align: right;}
+        *{padding-left: 20px;}
+        h1{color: #FFDF27;}
+        .blue{color: blue;}
+        .red{color: rgb(218, 73, 118);}
+        p strong, b {padding-left:0px}
     </style>
 </head>
 <body>
-    <section style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
-        <div style="border: solid 1px #ddd; display: inline-block; padding: 10px; box-shadow: 2px 2px 2px grey">
-            <p style="margin-bottom: 1px; text-align: center; margin-top: 0px;">Rikkei Academy - Order</p>
-            <table border="1">
-                <tr>
-                    <th rowspan="10">RA</th>
-                    <th class="left">Order no:</th>
-                    <td colspan="3">#RA001</td>
-                </tr>
-                <tr>
-                    <th class="left">Order Date:</th>
-                    <td colspan="3">02/12/2022</td>
-                </tr>
-                <tr>
-                    <th colspan="4">Customer</th>
-                </tr>
-                <tr>
-                    <th class="left">Name:</th>
-                    <td colspan="3">NGUYEN VAN A</td>
-                </tr>
-                <tr>
-                    <th class="left">Address:</th>
-                    <td colspan="3">7th floor, Tower A, Song Da building, Nam Tu Liem district, Hanoi</td>
-                </tr>
-                <tr>
-                    <th colspan="4">Order Detail</th>
-                </tr>
-                <tr>
-                    <td style="text-align: center;">1</td>
-                    <td>HTML</td>
-                    <td>Book</td>
-                    <td class="right">10.00$</td>
-                </tr>
-                <tr>
-                    <td style="text-align: center;">2</td>
-                    <td>CSS</td>
-                    <td>Book</td>
-                    <td class="right">12.00$</td>
-                </tr>
-                <tr>
-                    <td style="text-align: center;">3</td>
-                    <td>Javascript</td>
-                    <td>DVD</td>
-                    <td class="right">50.00$</td>
-                </tr>
-                <tr>
-                    <th colspan="3" class="right">Total:</th>
-                    <td class="right">72.00$</td>
-                </tr>
-            </table>
-        </div>
-    </section>
+    <h1>What is CSS?</h1>
+    <p class="blue">Cascading Style Sheets (CSS) is used to format the layout of a webpage.</p>
+    <p class="red">With CSS, you can control, font, the size of text, the spacing between elements, how elements are positioned and laid out, 
+        what background images or background colors are to be used, different displays for different devices and screen sizes, and much more!</p>
+    <p style="background-color: #FFFFCC; padding: 20px;"><strong>Tip:</strong> The word<b> casading</b> means that a style applied to a parent element will also apply to all children elements within the parent. 
+    So, if you set the color of the body text to "blue", all headings, paragraphs, and other text elements within the body will also get the same color 
+(unless you specify something else)!</p>
 </body>
 </html>
+
