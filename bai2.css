@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Helvetica,sans-serif;
+    color: white;
+}
+.tit{
+    font-style: italic;
+    font-family: 'Dancing Script', cursive;
+}
+a, button{
+    text-decoration: none;
+    color: white;
+}
+.top{
+    background-image: url(nen.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 600px;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: end;
+    height: 60px;
+    font-size: 13px;
+}
+header .tit{font-size: 25px;}
+header .click{padding-right: 30px;}
+header .click:hover{color: #F5C152;}
+.menu span{
+    padding-right: 10px;
+    vertical-align: middle;
+}
+button{
+    background-color: #F5C152;
+    border: none;
+    border-radius: 20px;
+    width: 130px;
+    height: 30px;
+}
+.describe{
+    position: absolute;
+    left: 150px;
+    top: 30%;
+}
+.describe .big{font-size: 50px;}
+.dot {
+    position: absolute;
+    left: 150px;
+    bottom: 20%;    
+}
+.dot .d{
+    width: 9px;
+    height: 9px;
+    cursor: pointer;
+    border-radius: 50%;
+    margin: 0 1px;
+    display: inline-block;
+    background: white;
+}
+.dot .d:hover{
+    width: 15px;
+    height: 15px;
+    background: #F5C152;
+    padding-bottom: -1px;
+    vertical-align: middle;
+}
+.content{
+    font-size: 13px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.bottom{
+    background-color: #222831;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+}
+.bottom .small{font-size: 30px;}
+
